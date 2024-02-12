@@ -24,13 +24,37 @@ body {
 }
 
 .resault {
+  margin-top: 50px;
   display: flex;
   justify-content: space-around;
 }
 
-.btn {
+.btn,
+.reset {
   margin-top: 10px;
   text-align: center;
+  #bebek,
+  #btn2,
+  #btn3,
+  #reset {
+    border: none;
+    padding: 10px 5px;
+    border-radius: 3px;
+    margin: 5px;
+  }
+}
+
+#reset {
+  background-color: gold;
+  transition: 1s;
+}
+#reset:hover {
+  background-color: #000000;
+  color: white;
+}
+
+#bebek:focus {
+  background-color: lightgreen;
 }
 
 .kosong {

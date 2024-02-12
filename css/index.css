@@ -11,7 +11,7 @@ h2 {
 }
 
 body {
-  background-color: aliceblue;
+  background-color: #e5e4e2;
 }
 
 .judul {
@@ -25,7 +25,7 @@ body {
   margin-bottom: 280px;
 }
 .row button {
-  background-color: white;
+  background-color: #e5e4e2;
   padding: 10px 5px;
   border-radius: 5px;
   color: black;
@@ -54,7 +54,7 @@ body {
   background-color: #87ceeb;
   justify-content: space-around;
   margin-bottom: 190px;
-  padding: 200px 0;
+  padding: 50px 0;
   font-family: "inter";
 }
 .about .rules,
